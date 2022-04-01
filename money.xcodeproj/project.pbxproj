@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		877661D927F6E91F000A45F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877661D827F6E91F000A45F4 /* AppDelegate.swift */; };
 		877661DB27F6E91F000A45F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877661DA27F6E91F000A45F4 /* SceneDelegate.swift */; };
-		877661DD27F6E91F000A45F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877661DC27F6E91F000A45F4 /* ViewController.swift */; };
 		877661E027F6E91F000A45F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877661DE27F6E91F000A45F4 /* Main.storyboard */; };
 		877661E227F6E920000A45F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877661E127F6E920000A45F4 /* Assets.xcassets */; };
 		877661E527F6E920000A45F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877661E327F6E920000A45F4 /* LaunchScreen.storyboard */; };
+		877661F227F701EF000A45F4 /* Aghellay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 877661EF27F701EF000A45F4 /* Aghellay.ttf */; };
+		879DE24B27F71B2F00EA2C9F /* moneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879DE24A27F71B2F00EA2C9F /* moneyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		877661D527F6E91F000A45F4 /* money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = money.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877661D827F6E91F000A45F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		877661DA27F6E91F000A45F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		877661DC27F6E91F000A45F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		877661DF27F6E91F000A45F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877661E127F6E920000A45F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877661E427F6E920000A45F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877661E627F6E920000A45F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877661EF27F701EF000A45F4 /* Aghellay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aghellay.ttf; sourceTree = "<group>"; };
+		879DE24A27F71B2F00EA2C9F /* moneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		877661D727F6E91F000A45F4 /* money */ = {
 			isa = PBXGroup;
 			children = (
+				877661EF27F701EF000A45F4 /* Aghellay.ttf */,
 				877661D827F6E91F000A45F4 /* AppDelegate.swift */,
 				877661DA27F6E91F000A45F4 /* SceneDelegate.swift */,
-				877661DC27F6E91F000A45F4 /* ViewController.swift */,
 				877661DE27F6E91F000A45F4 /* Main.storyboard */,
+				879DE24A27F71B2F00EA2C9F /* moneyViewController.swift */,
 				877661E127F6E920000A45F4 /* Assets.xcassets */,
 				877661E327F6E920000A45F4 /* LaunchScreen.storyboard */,
 				877661E627F6E920000A45F4 /* Info.plist */,
@@ -128,6 +131,7 @@
 				877661E527F6E920000A45F4 /* LaunchScreen.storyboard in Resources */,
 				877661E227F6E920000A45F4 /* Assets.xcassets in Resources */,
 				877661E027F6E91F000A45F4 /* Main.storyboard in Resources */,
+				877661F227F701EF000A45F4 /* Aghellay.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877661DD27F6E91F000A45F4 /* ViewController.swift in Sources */,
 				877661D927F6E91F000A45F4 /* AppDelegate.swift in Sources */,
 				877661DB27F6E91F000A45F4 /* SceneDelegate.swift in Sources */,
+				879DE24B27F71B2F00EA2C9F /* moneyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
